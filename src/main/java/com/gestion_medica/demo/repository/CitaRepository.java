@@ -1,4 +1,4 @@
-package com.gestion_medica.demo.Repositorio;
+package com.gestion_medica.demo.repository;
 
 import com.gestion_medica.demo.model.*;
 import com.gestion_medica.demo.model.keys.*;
@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
+
 @Repository
-public interface PersonaRepository extends JpaRepository<Persona, Integer> {
+public interface CitaRepository extends JpaRepository<Cita, Integer> {
 }

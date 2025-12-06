@@ -1,11 +1,9 @@
 package com.gestion_medica.demo.model;
 
-import com.gestion_medica.demo.model.keys.*;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import java.time.LocalDate;
 
 @Entity
 @Table(name = "usuario")

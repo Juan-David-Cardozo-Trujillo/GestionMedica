@@ -1,4 +1,4 @@
-package com.gestion_medica.demo.Repositorio;
+package com.gestion_medica.demo.repository;
 
 import com.gestion_medica.demo.model.*;
 import com.gestion_medica.demo.model.keys.*;
@@ -10,5 +10,5 @@ import java.util.Map;
 import java.util.Optional;
 
 @Repository
-public interface PacienteAsisteSedeRepository extends JpaRepository<PacienteAsisteSede, PacienteAsisteSedeId> {
+public interface EquipamientoUsaDepartamentoRepository extends JpaRepository<EquipamientoUsaDepartamento, EquipamientoUsaDepartamentoId> {
 }
