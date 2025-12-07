@@ -28,7 +28,7 @@ public class HistoriaClinicaRegistraDiagnostica {
     @Column(name = "idcita")
     private Integer idCita;
 
-    @Column(name = "fecharegis", nullable = false)
+    @Column(name = "fecharegistro", nullable = false)
     private LocalDate fechaRegistro;
 
     @Column(name = "horaregistro", nullable = false)
