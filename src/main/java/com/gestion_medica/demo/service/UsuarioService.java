@@ -1,7 +1,7 @@
-package com.gestion_medica.demo.Servicio;
+package com.gestion_medica.demo.service;
 
-import com.gestion_medica.demo.model.*;
-import com.gestion_medica.demo.repository.*;
+import com.gestion_medica.demo.model.Usuario;
+import com.gestion_medica.demo.repository.UsuarioRepository;
 import com.gestion_medica.demo.util.PasswordHashingUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

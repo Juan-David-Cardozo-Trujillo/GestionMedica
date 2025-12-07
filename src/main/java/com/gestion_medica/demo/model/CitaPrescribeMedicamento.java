@@ -1,6 +1,6 @@
 package com.gestion_medica.demo.model;
 
-import com.gestion_medica.demo.model.keys.*;
+import com.gestion_medica.demo.model.keys.CitaPrescribeMedicamentoId;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;

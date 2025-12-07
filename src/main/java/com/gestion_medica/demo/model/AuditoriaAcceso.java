@@ -1,6 +1,5 @@
 package com.gestion_medica.demo.model;
 
-import com.gestion_medica.demo.model.keys.*;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;

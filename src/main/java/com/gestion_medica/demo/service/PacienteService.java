@@ -1,8 +1,8 @@
-package com.gestion_medica.demo.Servicio;
+package com.gestion_medica.demo.service;
 
-import com.gestion_medica.demo.model.*;
-import com.gestion_medica.demo.model.keys.*;
-import com.gestion_medica.demo.repository.*;
+import com.gestion_medica.demo.model.Paciente;
+import com.gestion_medica.demo.model.keys.PacienteId;
+import com.gestion_medica.demo.repository.PacienteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

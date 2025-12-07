@@ -1,7 +1,7 @@
-package com.gestion_medica.demo.Servicio;
+package com.gestion_medica.demo.service;
 
-import com.gestion_medica.demo.model.*;
-import com.gestion_medica.demo.repository.*;
+import com.gestion_medica.demo.model.Cita;
+import com.gestion_medica.demo.repository.CitaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -10,21 +10,21 @@ import java.util.Optional;
 
 @Service
 @Transactional
-public class HistoriaClinicaService {
+public class CitaService {
 
     @Autowired
-    private HistoriaClinicaRepository repository;
+    private CitaRepository repository;
 
-    public List<HistoriaClinica> findAll() {
+    public List<Cita> findAll() {
         return repository.findAll();
     }
 
-    public Optional<HistoriaClinica> findById(Integer id) {
+    public Optional<Cita> findById(Integer id) {
         return repository.findById(id);
     }
 
-    public HistoriaClinica save(HistoriaClinica historia) {
-        return repository.save(historia);
+    public Cita save(Cita cita) {
+        return repository.save(cita);
     }
 
     public void deleteById(Integer id) {

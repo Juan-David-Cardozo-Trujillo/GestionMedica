@@ -1,12 +1,10 @@
 package com.gestion_medica.demo.model;
 
-import com.gestion_medica.demo.model.keys.*;
+import com.gestion_medica.demo.model.keys.PacienteAsisteSedeId;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import java.time.LocalDate;
-import java.time.LocalTime;
 
 // ==================== PacienteAsisteSede ====================
 @Entity

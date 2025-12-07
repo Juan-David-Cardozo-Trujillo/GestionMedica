@@ -1,7 +1,7 @@
-package com.gestion_medica.demo.Servicio;
+package com.gestion_medica.demo.service;
 
-import com.gestion_medica.demo.model.*;
-import com.gestion_medica.demo.repository.*;
+import com.gestion_medica.demo.model.Equipamiento;
+import com.gestion_medica.demo.repository.EquipamientoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -10,21 +10,21 @@ import java.util.Optional;
 
 @Service
 @Transactional
-public class MedicamentoService {
+public class EquipamientoService {
 
     @Autowired
-    private MedicamentoRepository repository;
+    private EquipamientoRepository repository;
 
-    public List<Medicamento> findAll() {
+    public List<Equipamiento> findAll() {
         return repository.findAll();
     }
 
-    public Optional<Medicamento> findById(Integer id) {
+    public Optional<Equipamiento> findById(Integer id) {
         return repository.findById(id);
     }
 
-    public Medicamento save(Medicamento medicamento) {
-        return repository.save(medicamento);
+    public Equipamiento save(Equipamiento equipamiento) {
+        return repository.save(equipamiento);
     }
 
     public void deleteById(Integer id) {
